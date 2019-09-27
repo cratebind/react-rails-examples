@@ -16,6 +16,9 @@
  * and modules within the 'src' directory
  *
  */
+// import React from 'react';
+// import ReactDOM from 'react-dom';
+// import MapPage from '../components/MapPage';
 import '../src';
 import '../stylesheets/App.scss';
 
@@ -23,3 +26,15 @@ const componentRequireContext = require.context('components', true);
 const ReactRailsUJS = require('react_ujs');
 
 ReactRailsUJS.useContext(componentRequireContext);
+
+// const container = document.querySelector('#map');
+// console.log(container);
+// ReactDOM.render(<MapPage />, container);
+
+// document.addEventListener('DOMContentLoaded', () => {
+//   ReactDOM.render(
+//     <MapPage />,
+//     // container
+//     document.body.appendChild(document.createElement('div'))
+//   );
+// });
