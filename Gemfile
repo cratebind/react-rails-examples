@@ -53,6 +53,11 @@ gem 'rubocop', require: false
 gem 'rubycritic', require: false
 gem 'brakeman', require: false
 
+# GraphQL
+gem 'graphql'
+gem 'graphql-errors'
+gem 'graphiql-rails'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]

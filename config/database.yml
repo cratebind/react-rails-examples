@@ -7,14 +7,14 @@ default: &default
 
 development:
   <<: *default
-  database: mint_development
+  database: react_rails_development
 
 test:
   <<: *default
-  database: mint_test
+  database: react_rails_test
 
 production:
   <<: *default
-  database: mint_production
-  username: mint
+  database: react_rails_production
+  username: react_rails
   password: <%= ENV['RELOOLOGY_DATABASE_PASSWORD'] %>
