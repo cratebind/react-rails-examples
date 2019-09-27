@@ -213,6 +213,12 @@ GEM
       grape (>= 0.17, < 1.1)
     grape-swagger (0.30.1)
       grape (>= 0.16.2)
+    graphiql-rails (1.7.0)
+      railties
+      sprockets-rails
+    graphql (1.9.12)
+    graphql-errors (0.3.0)
+      graphql (>= 1.6.0, < 2)
     haml (5.0.4)
       temple (>= 0.8.0)
       tilt
@@ -533,6 +539,9 @@ DEPENDENCIES
   grape-middleware-logger
   grape-swagger
   grape-swagger-rails!
+  graphiql-rails
+  graphql
+  graphql-errors
   haml-rails (~> 1.0)
   has_secure_token
   hashie-forbidden_attributes
@@ -572,4 +581,4 @@ RUBY VERSION
    ruby 2.5.3p105
 
 BUNDLED WITH
-   1.16.5
+   1.17.3
