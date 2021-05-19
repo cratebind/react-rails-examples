@@ -6,7 +6,7 @@ ruby '2.5.3'
 gem 'rails', '~> 5.2.0'
 
 # API/Server
-gem 'puma', '~> 3.11'
+gem 'puma', '~> 3.12'
 gem 'grape'
 gem 'grape-swagger'
 gem 'grape-middleware-logger'
